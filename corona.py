@@ -34,7 +34,7 @@ class Get_virus():
         #     self.driver.quit()
 
         
-        time.sleep(7) # wait for 5 sec to load the page
+        time.sleep(7) # wait for 7 sec to load the page
         if mode == 'p' or 'partial':
             self.partial_get_data()
         else:
